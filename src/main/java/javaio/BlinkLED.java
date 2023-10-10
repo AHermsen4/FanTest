@@ -1,7 +1,7 @@
 package javaio;
 import com.pi4j.io.gpio.*;
 
-public class BrushlessFanTest {
+public class BlinkLED {
 
     public static void main(String[] args) throws InterruptedException {
         // Create a GPIO controller
