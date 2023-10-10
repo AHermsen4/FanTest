@@ -17,7 +17,7 @@ Simple class for writing and testing outputpin
 public class BlinkLED
 {
 	// define the pin number that has the LED connected
-	public final static Pin LED_PIN = RaspiPin.GPIO_02;
+	public final static Pin LED_PIN = RaspiPin.GPIO_01;
 
 	// Initialize the Wiring Pi Library and Hardware controller
 	final static GpioController gpio = GpioFactory.getInstance();
