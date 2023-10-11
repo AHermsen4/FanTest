@@ -12,7 +12,7 @@ public class BlinkLED {
         final GpioController gpio = GpioFactory.getInstance();
 
         // Provision the pin
-        final GpioPinDigitalOutput fanPin = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_01, "Fan", PinState.LOW);
+        final GpioPinDigitalOutput fanPin = gpio.provisionDigitalOutputPin(RaspiPin.GPIO_03, "Fan", PinState.LOW);
 
         // Turn the fan on
         fanPin.high();
